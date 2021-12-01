@@ -1,5 +1,7 @@
 'use strict';
 
+let str = prompt('Введите строку');
+
 const lexic = function (str) {
     if (typeof str === 'string') {
         str = str.trim();
@@ -11,3 +13,5 @@ const lexic = function (str) {
         alert('Это не строка');
     }
 };
+
+lexic(str);

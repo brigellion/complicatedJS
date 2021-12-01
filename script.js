@@ -18,6 +18,6 @@ for (let i = 2; i <= 100; i++) {
         }
     }
     if (simple) {
-        console.log(i);
+        console.log("Число " + i + ". Делители этого числа: 1 и " + i);
     }
 }
